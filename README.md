@@ -5,4 +5,5 @@ The program randomly fill the board with 'X', 'O', print the board, and determin
 
 # Libraries
 1- numpy --> to create the board
+
 2- prettytable --> to print the board
