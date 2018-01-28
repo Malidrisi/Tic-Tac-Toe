@@ -38,7 +38,6 @@ class TicTactoe:
             pt.add_row(row)
         return str(pt.get_string(header=False, border=False))
 
-
 def main():
     t = TicTactoe(4)
     print(t)

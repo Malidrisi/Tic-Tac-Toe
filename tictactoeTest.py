@@ -26,6 +26,5 @@ class TicTactoeTest(unittest.TestCase):
         t2.board = np.array([['O', 'X', 'O'], ['X', 'O', 'X'], ['X', 'X', 'O']]) 
         self.assertEqual(t2.get_the_winner(), 'The winner is: O') 
         
-
 if __name__ == '__main__':
     unittest.main(exit=False, verbosity=2)
